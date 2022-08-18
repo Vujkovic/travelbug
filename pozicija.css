@@ -1,0 +1,59 @@
+body{
+    background-color: #926AA6;
+}
+li {
+    display: inline;
+  }
+.navbar-links
+{
+   background-color: #926AA1;
+  
+}
+a 
+{
+    font-family: 'Smooch', cursive; 
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 20px;
+    
+}
+.FontanaDiTreviSlika{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    transition: transform 1.8s;
+    left:100px;
+    top: 100px;
+}
+.FontanaDiTreviSlika:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+.NaslovRim{
+    font-family: 'Smooch', cursive;
+    font-size: 28px;
+    position: absolute;
+    left:100px;
+    top: 500px;
+    margin: 0px;
+    color: white;
+}
+.ForumRomanum{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left:800px;
+    top: 100px;
+}
+.NaslovForumRomanum
+{
+    font-family: 'Smooch', cursive;
+    font-size: 28px;
+    position: absolute;
+    left:800px;
+    top: 500px;
+    margin: 0px;
+    color: white;
+}

@@ -1,0 +1,92 @@
+body{
+    background-color: #926AA6;
+    margin: 0%;
+}
+
+li {
+    display: inline;
+}
+
+.div1{
+    width: 100%;
+    height: 500px;
+    background-image: url("img/cropped-cropped-Rome.jpg");
+    background-size: 100%;
+}
+a
+{
+    font-family: 'Smooch', cursive; 
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 20px;
+    
+}
+
+.div12
+{
+font-family: 'Smooch', cursive; 
+max-width: 960px;
+margin: 0 auto;
+background: #f9f9f9;
+font-size: 24px;
+padding: 25px;
+}
+
+.SveInformacije
+{
+  margin: 0%;
+  font-family: 'Smooch', cursive; 
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+.Kolos
+{
+    /* The image used */
+    background-image: url("img/koloseum.jpg");         
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Panteon
+{
+    /* The image used */
+    background-image: url("img/panteon1.jpg");         
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax
+{
+    /* The image used */
+    background-image: url("img/vitorijano.jpg");         
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.naslovRIM
+{
+    margin: 0%;
+}
+mark {
+    background-color: yellow;
+    color: purple;
+  }
