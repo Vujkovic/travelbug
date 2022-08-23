@@ -15,7 +15,7 @@ li {
 }
 a
 {
-    font-family: 'Smooch', cursive; 
+    font-family: 'Smooch'; 
     color: white;
     font-size: 35px;
     text-decoration: none;
@@ -36,7 +36,7 @@ padding: 25px;
 .SveInformacije
 {
   margin: 0%;
-  font-family: 'Smooch', cursive; 
+  font-family: 'Smooch'; 
   color: black;
   font-size: 20px;
   font-style: italic;
