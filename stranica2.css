@@ -1,9 +1,23 @@
 body{
-    background-color: #926AA6;
+    background-color: #C9B6E4;
     margin: 0%;
 }
 
-li {
+.navbar-links
+{
+  margin-bottom: 70px;
+  background-color:  #BE9FE1;
+  
+  
+}
+.navbar-links1
+{ 
+    margin: 0px ;
+    padding-top: 16px;
+}
+
+
+.Menu {
     display: inline;
 }
 
@@ -15,28 +29,35 @@ li {
 }
 a
 {
-    font-family: 'Smooch'; 
+    font-family: 'Quicksand', sans-serif;
     color: white;
     font-size: 35px;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+     text-shadow: 0 0 4px black ; 
+    /*-webkit-text-stroke: 2px black; */
+    text-align: center;
     
 }
 
 .div12
 {
-font-family: 'Smooch', cursive; 
-max-width: 960px;
-margin: 0 auto;
-background: #f9f9f9;
-font-size: 24px;
-padding: 25px;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+    border: solid;
 }
 
 .SveInformacije
 {
   margin: 0%;
-  font-family: 'Smooch'; 
+  font-family: 'Quicksand', sans-serif;
   color: black;
   font-size: 20px;
   font-style: italic;
@@ -46,7 +67,7 @@ padding: 25px;
 .Kolos
 {
     /* The image used */
-    background-image: url("img/koloseum.jpg");         
+    background-image: url("img/koloseumrim.jpg");         
     /* Set a specific height */
     min-height: 500px; 
 
@@ -55,6 +76,7 @@ padding: 25px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 25px;
 }
 .Panteon
 {
@@ -68,6 +90,8 @@ padding: 25px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 25px;
+    border: solid;
 }
 .parallax
 {
@@ -89,6 +113,14 @@ padding: 25px;
 mark {
     background-color: yellow;
     color: purple;
+  }
+.mapouter{
+    border-radius: 25px;
+}
+
+.Menu1:hover {
+    background-color: #F1F1F6;
+    border-radius: 25px;
   }
 @media only screen and (max-width: 768px) 
 {  
