@@ -190,7 +190,11 @@ mark
   
 @media screen and (max-width: 600px) 
 {
-    .navbar-links.responsive {position: relative;}
+    .navbar-links.responsive 
+    {
+             position: relative;
+             position: fixed;
+    }
     .navbar-links.responsive .icon 
     {
             position: absolute;
