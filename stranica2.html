@@ -7,25 +7,30 @@
         <title>10 Stvari koje ne smete propustiti u Rimu!</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Kdam+Thmor+Pro&family=PT+Serif&family=Quicksand:wght@300;400&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Kdam+Thmor+Pro&family=PT+Serif&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
         
 </head>
 
 <body>
-    <div class="navbar-links">
+    <div class="navbar-links" id="myTopnav">
           <ul class="navbar-links1">
               <li class="Menu"><a  class="Menu1" href="index.html">Početna</a></li>
               <li class="Menu"><a class="Menu1" href="#news">Vesti</a></li>
               <li class="Menu"><a class="Menu1" href="Kontakt.html">Kontakt</a></li>
               <li class="Menu"><a class="Menu1" href="#about">O nama</a></li>
+              <li >  
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+             </li>
+              </a>
           </ul>
     </div>
     
 <br>
-<br>
-<br>
-<br>
-<div class="div12"> 
+
+<div class="div12" id="div122"> 
 
     <h1 class="naslovRIM">RIM</h1>
     <h6 class="SveInformacije">Sve informacije na jednom mestu</h6>
@@ -99,10 +104,21 @@
     <p>Author: Vujko<br>
     <a href="putpodnoge@example.com">putpodnoge@example.com</a></p>
   </footer>
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "navbar-links") {
+        x.className += " responsive";
+      //  document.getElementById("div122").style.marginTop = "0px"; 
+      } else {
+        x.className = "navbar-links";
+      }
+    }
+</script>
+
 </body>
-
-
-
 </html>
 
 
