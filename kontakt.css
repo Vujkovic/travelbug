@@ -1,0 +1,128 @@
+body{
+    background-color: #C9B6E4;
+    margin: 0%;
+}
+.navbar-links
+{
+  position: fixed;
+  width:100% ;
+  background-color:  #BE9FE1;
+  overflow: hidden;
+}
+
+.navbar-links1
+{ 
+    margin: 0px ;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.navbar-links a 
+{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar-links .icon 
+{
+    display: none;
+}
+
+.Menu 
+{
+    display: inline;
+}
+ul 
+{
+    list-style-type: none;
+}
+a
+{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 219%;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0 0 4px black ; 
+    text-align: center; 
+}
+
+.Menu1:hover 
+{
+    background-color: #F1F1F6;
+    border-radius: 25px;
+}
+@media screen and (max-width: 600px) 
+{
+    .navbar-links a {display: none;}
+    .navbar-links a.icon 
+    {
+        float: right;
+        display: block;
+    }
+  }
+  
+@media screen and (max-width: 600px) 
+{
+    .navbar-links.responsive 
+    {
+        position: relative; 
+        position: fixed;
+    }
+
+    .navbar-links.responsive .icon 
+    {
+            position: absolute;
+            right: 0;
+            top: 0;
+    }
+    .navbar-links.responsive a 
+    {
+            float: none;
+            display: block;
+            text-align: left;
+    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
