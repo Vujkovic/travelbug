@@ -3,16 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title>kontakt</title>
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Kdam+Thmor+Pro&family=PT+Serif&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
   </head>
   <body>
 
-    
+    <div class="navbar-links" id="myTopnav">
+      <ul class="navbar-links1">
+          <li class="Menu"><a  class="Menu1" href="index.html">Početna</a></li>
+          <li class="Menu"><a class="Menu1" href="#news">Vesti</a></li>
+          <li class="Menu"><a class="Menu1" href="Kontakt.html">Kontakt</a></li>
+          <li class="Menu"><a class="Menu1" href="#about">O nama</a></li>
+          <li >  
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+         </li>
+          </a>
+      </ul>
+</div>
+<br>
+<br><br><br><br><br><br>
 
+
+<div class="container">
+  <form action="https://formsubmit.co/vujko.popovic@gmail.com" method="POST">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+<!--
 <form action="https://formsubmit.co/vujko.popovic@gmail.com" method="POST">
      <input type="text" name="name" required>
      <input type="email" name="email" required>
      <button type="submit">Send</button>
 </form>
+-->
 
+<script src="meni.js"></script>
   </body>
 </html>
