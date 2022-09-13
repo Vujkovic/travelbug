@@ -186,6 +186,7 @@ mark
     background-color: #F1F1F6;
     border-radius: 25px;
 }
+
 .footer
 {   
     background-color: #320C2D;
@@ -198,6 +199,7 @@ mark
 {
   display: block;
   font-family: 'Quicksand', sans-serif;
+  
 }
 
 .footerParagraf
@@ -214,6 +216,7 @@ mark
         float: right;
         display: block;
     }
+
   }
   
 @media screen and (max-width: 600px) 
@@ -239,5 +242,10 @@ mark
     html, body {
         max-width: 100%;
         overflow-x: hidden;
+    }
+   .mail
+    {
+        font-size:200%;
+        padding-bottom: 20px;
     }
 }
