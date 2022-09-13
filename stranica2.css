@@ -1,4 +1,5 @@
-body{
+body
+{
     background-color: #C9B6E4;
     margin: 0%;
 }
@@ -78,6 +79,11 @@ a
     border: solid;
 }
 
+p
+{
+    text-align:justify;
+}
+
 .SveInformacije
 {
   margin: 0%;
@@ -101,6 +107,7 @@ a
     border-radius: 25px;
     border: solid;
 }
+
 .Panteon
 {
     /* The image used */
@@ -115,6 +122,7 @@ a
     border-radius: 25px;
     border: solid;
 }
+
 .parallax
 {
     /* The image used */
@@ -127,6 +135,7 @@ a
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .spanskeStepenice
 {
     /* The image used */
@@ -177,6 +186,25 @@ mark
     background-color: #F1F1F6;
     border-radius: 25px;
 }
+.footer
+{   
+    background-color: #320C2D;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 6px;
+}
+
+.mail 
+{
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.footerParagraf
+{   color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
 
 @media screen and (max-width: 600px) 
 {
@@ -192,9 +220,10 @@ mark
 {
     .navbar-links.responsive 
     {
-             position: relative;
-             position: fixed;
+        position: relative; 
+        position: fixed;
     }
+
     .navbar-links.responsive .icon 
     {
             position: absolute;
@@ -207,9 +236,7 @@ mark
             display: block;
             text-align: left;
     }
-    
-    html, body 
-    {
+    html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
