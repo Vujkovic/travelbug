@@ -186,7 +186,6 @@ mark
     background-color: #F1F1F6;
     border-radius: 25px;
 }
-
 .footer
 {   
     background-color: #320C2D;
@@ -233,6 +232,7 @@ mark
             right: 0;
             top: 0;
     }
+    
     .navbar-links.responsive a 
     {
             float: none;
@@ -243,9 +243,19 @@ mark
         max-width: 100%;
         overflow-x: hidden;
     }
+    
    .mail
     {
         font-size:200%;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) 
+{
+    .mail
+    {
+        font-size:140%;
         padding-bottom: 20px;
     }
 }
