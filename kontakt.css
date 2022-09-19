@@ -1,5 +1,5 @@
 body{
-    background-color: #C9B6E4;
+    background-color: #ece5f5;
     margin: 0%;
 }
 .navbar-links
@@ -92,6 +92,23 @@ a
         max-width: 100%;
         overflow-x: hidden;
     }
+    input[type=text], select, textarea {
+        width: 90%;
+        padding: 12px;
+        border: 1px solid rgb(5, 5, 5);
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: horizontal;
+      }
+}
+
+h1
+{
+  text-align: center;
+  font-size: 50px; 
+  font-family: 'Quicksand', sans-serif;
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -100,16 +117,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(5, 5, 5);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
+  resize: horizontal;
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #d879eb;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -122,7 +139,15 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  border-radius: 1px;
+  height: 700px;
+  width: 700px;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0 auto 0 auto;
+  background-color: #F1F1F6;
+  font-size: 35px;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 25px;
+ margin-left: auto;
 }
