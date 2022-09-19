@@ -14,7 +14,7 @@
     <div class="navbar-links" id="myTopnav">
       <ul class="navbar-links1">
           <li class="Menu"><a  class="Menu1" href="index.html">Početna</a></li>
-          <li class="Menu"><a class="Menu1" href="#news">Vesti</a></li>
+          <li class="Menu"><a class="Menu1" href="destinacije.html">Destinacije</a></li>
           <li class="Menu"><a class="Menu1" href="Kontakt.html">Kontakt</a></li>
           <li class="Menu"><a class="Menu1" href="#about">O nama</a></li>
           <li >  
@@ -27,38 +27,24 @@
 </div>
 <br>
 <br><br><br><br><br><br>
-
+ <h1>Kontakt</h1>
 
 <div class="container">
   <form action="https://formsubmit.co/vujko.popovic@gmail.com" method="POST">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="fname">Ime:</label><br>
+    <input type="text" maxlength="4" id="fname" name="firstname" placeholder="Vaše ime ..." ><br>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Prezime:</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Vaše prezime..."><br>
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="subject">Poruka:</label><br>
+    <textarea id="subject" name="subject" placeholder="Napišite poruku..." style="height:200px"></textarea><br>
 
-    <input type="submit" value="Submit">
+    <input type="submit" size="5" value="Pošalji"><br>
   </form>
 </div>
 
-
-<!--
-<form action="https://formsubmit.co/vujko.popovic@gmail.com" method="POST">
-     <input type="text" name="name" required>
-     <input type="email" name="email" required>
-     <button type="submit">Send</button>
-</form>
--->
 
 <script src="meni.js"></script>
   </body>
