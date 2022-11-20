@@ -78,7 +78,10 @@ a
     border-radius: 25px;
     border: solid;
 }
-
+h2 
+{
+  font-size: 27px;
+}
 p
 {
     text-align:justify;
@@ -126,14 +129,16 @@ p
 .parallax
 {
     /* The image used */
-    background-image: url("img/vitorijano.jpg");         
+    background-image: url("img/forumRomanum.jpg");         
     /* Set a specific height */
     min-height: 500px; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;    
+    border-radius: 25px;
+    border: solid;
 }
 
 .spanskeStepenice
@@ -166,9 +171,24 @@ p
     border: solid;
 }
 
+.vitorijano
+{
+    /* The image used */
+    background-image: url("img/vitor.jpg");         
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    border: solid;
+}
 .naslovRIM
 {
     margin: 0%;
+    font-size: 39px;
 }
 
 mark 
