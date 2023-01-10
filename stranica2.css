@@ -1,6 +1,7 @@
 body
 {
-    background-color: #C9B6E4;
+    /*background-color: #C9B6E4; */
+    background-color:  #f0da94;
     margin: 0%;
 }
 
@@ -8,7 +9,8 @@ body
 {
   position: fixed;
   width:100% ;
-  background-color:  #BE9FE1;
+  /*background-color:  #BE9FE1;   #413309 */
+  background-color:  #eecabd  ;
   overflow: hidden;
 }
 
@@ -23,7 +25,7 @@ body
 {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,7 +63,7 @@ a
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
-    text-shadow: 0 0 4px black ; 
+   /* text-shadow: 0 0 4px black ; */
     text-align: center; 
 }
 
