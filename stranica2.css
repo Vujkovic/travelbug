@@ -12,6 +12,7 @@ body
   /*background-color:  #BE9FE1;   #413309 */
   background-color:  #eecabd  ;
   overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .navbar-links1
