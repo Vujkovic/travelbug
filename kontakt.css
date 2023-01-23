@@ -1,5 +1,5 @@
 body{
-    background-color: #ece5f5;
+    background-color: white;
     margin: 0%;
 }
 .navbar-links
@@ -8,6 +8,7 @@ body{
   width:100% ;
   background-color:  #BE9FE1;
   overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .navbar-links1
@@ -21,7 +22,7 @@ body{
 {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -144,7 +145,7 @@ input[type=submit]:hover {
   width: 700px;
   font-family: 'Quicksand', sans-serif;
   margin: 0 auto 0 auto;
-  background-color: #F1F1F6;
+  background-color: white;
   font-size: 35px;
   padding: 25px;
   margin-top: 30px;
