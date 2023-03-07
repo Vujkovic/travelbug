@@ -1,7 +1,7 @@
 body
 {
     /*background-color: #C9B6E4; */
-    background-color:  #f0da94;
+    background-color:  white;
     margin: 0%;
 }
 
@@ -79,7 +79,7 @@ a
     margin-top: 100px;
     background-color: white;
     border-radius: 25px;
-    border: solid;
+   /* border: solid;*/
 }
 h2 
 {
@@ -144,6 +144,20 @@ p
     border: solid;
 }
 
+.palatinHill
+{
+        /* The image used */
+        background-image: url("img/palatin.jpg");         
+        /* Set a specific height */
+        min-height: 500px; 
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+        border-radius: 25px;
+        border: solid;
+}
 .spanskeStepenice
 {
     /* The image used */
