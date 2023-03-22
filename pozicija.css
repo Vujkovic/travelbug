@@ -1,14 +1,18 @@
 body{
-    background-color: #926AA6;
+    background-color: white;
 }
 li {
     display: inline;
   }
 .navbar-links
 {
-   background-color: #926AA1;
+   background-color: white;
    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   
+}
+.mySlides fade
+{
+   max-height: 200px;
 }
 a
 {
