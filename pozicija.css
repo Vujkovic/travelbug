@@ -102,6 +102,11 @@ a
     text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
+.slideSlike
+{
+    margin: 0px; 
+    padding: 0px;
+}
 @media screen and (max-width: 600px) 
 {
     html, body {
